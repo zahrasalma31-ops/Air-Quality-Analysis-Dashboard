@@ -33,26 +33,29 @@ Dashboard menampilkan analisis PM10 secara interaktif dengan fitur:
 - Distribusi kategori kualitas udara
 - Insight singkat dan rekomendasi dari hasil analisis
 
----
-
-## ⚙️ Cara Menjalankan Dashboard
-
-### 1. Install dependencies
 ```
+
+## Setup Environment - Anaconda
+
+```
+conda create --name air-quality-ds python=3.9
+conda activate air-quality-ds
 pip install -r requirements.txt
 ```
 
-### 2. Jalankan Streamlit
+## Setup Environment - Shell/Terminal
+
+```
+mkdir submission
+cd submission
+pip install -r requirements.txt
+```
+
+## Run Streamlit App
+
 ```
 streamlit run dashboard/dashboard.py
 ```
-
-### 3. Buka di browser
-```
-http://localhost:8501
-```
-
----
 
 ## 🛠️ Tools & Library
 - Python  
