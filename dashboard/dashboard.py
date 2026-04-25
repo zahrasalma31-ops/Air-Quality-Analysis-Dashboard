@@ -387,7 +387,7 @@ st.markdown("""
 st.markdown("---")
 
 # Rekomendasi
-st.markdown('<p class="section-title">🎯 Rekomendasi / Action Item</p>', unsafe_allow_html=True)
+st.markdown('<p class="section-title">🎯 Rekomendasi</p>', unsafe_allow_html=True)
 
 st.markdown("""
 <div class="insight-box">
