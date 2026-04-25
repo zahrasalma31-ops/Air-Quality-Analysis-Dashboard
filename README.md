@@ -1,7 +1,9 @@
 # 🌫️ Proyek Analisis Data - Air Quality Analysis Dashboard
 
 ## 📌 Deskripsi
-Proyek ini melakukan analisis kualitas udara dengan fokus pada konsentrasi **PM10** menggunakan Air Quality Dataset periode Maret 2013 hingga Februari 2017, dengan tujuan memahami pola perubahan kualitas udara dari waktu ke waktu serta faktor-faktor yang mempengaruhinya. Hasil analisis disajikan dalam bentuk **notebook** dan **dashboard interaktif menggunakan Streamlit**.
+Proyek ini melakukan analisis kualitas udara dengan fokus pada konsentrasi **PM10** menggunakan Air Quality Dataset periode Maret 2013 hingga Februari 2017, dengan tujuan memahami pola perubahan kualitas udara dari waktu ke waktu serta faktor-faktor yang mempengaruhinya.  
+
+Hasil analisis disajikan dalam bentuk **notebook** dan **dashboard interaktif menggunakan Streamlit**.
 
 ---
 
@@ -23,39 +25,42 @@ submission/
 ---
 
 ## 📊 Isi Dashboard
-Dashboard menampilkan analisis PM10 secara interaktif dengan fitur:
+Dashboard menampilkan analisis PM10 secara interaktif dengan fitur utama:
 
 - Filter data berdasarkan **stasiun** dan **tahun**
-- Ringkasan statistik deskriptif (rata-rata, median, maksimum, jumlah data)
-- Tren PM10 dari waktu ke waktu (bulanan & musiman)
-- Hubungan PM10 dengan faktor lingkungan (suhu & kecepatan angin)
+- Ringkasan statistik (rata-rata, median, maksimum, jumlah data)
+- Tren PM10 (bulanan & musiman)
+- Analisis hubungan dengan faktor lingkungan (suhu & kecepatan angin)
 - Perbandingan kondisi PM10 antar stasiun
 - Distribusi kategori kualitas udara
-- Insight singkat dan rekomendasi dari hasil analisis
+- Insight dan rekomendasi
 
-```
+---
 
-## Setup Environment - Anaconda
-
+## ⚙️ Setup Environment - Anaconda
 ```
 conda create --name air-quality-ds python=3.9
 conda activate air-quality-ds
 pip install -r requirements.txt
 ```
 
-## Setup Environment - Shell/Terminal
+---
 
+## ⚙️ Setup Environment - Shell/Terminal
 ```
 mkdir submission
 cd submission
 pip install -r requirements.txt
 ```
 
-## Run Streamlit App
+---
 
+## 🚀 Menjalankan Dashboard
 ```
 streamlit run dashboard/dashboard.py
 ```
+
+---
 
 ## 🛠️ Tools & Library
 - Python  
