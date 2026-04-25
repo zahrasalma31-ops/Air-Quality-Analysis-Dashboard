@@ -26,34 +26,13 @@ submission/
 ## 📊 Isi Dashboard
 Dashboard menampilkan analisis PM10 secara interaktif dengan fitur:
 
-- 🎯 **Filter Data**
-  - Filter berdasarkan **stasiun**
-  - Filter berdasarkan **tahun**
-
-- 📌 **Ringkasan Statistik**
-  - Rata-rata PM10
-  - Median PM10
-  - Nilai maksimum
-  - Jumlah observasi
-
-- 📈 **Tren PM10**
-  - Tren bulanan PM10 (time series)
-  - Pola musiman PM10
-
-- 🌡️ **Analisis Faktor Lingkungan**
-  - Hubungan PM10 dengan suhu (TEMP)
-  - Hubungan PM10 dengan kecepatan angin (WSPM)
-
-- 🏭 **Perbandingan Antar Stasiun**
-  - Rata-rata PM10 per stasiun
-  - Distribusi PM10 per stasiun (boxplot)
-
-- 🚦 **Distribusi Kategori PM10**
-  - Kategori kualitas udara (Good, Moderate, dll)
-
-- 💡 **Insight & Rekomendasi**
-  - Ringkasan hasil analisis
-  - Rekomendasi berdasarkan pola data
+- Filter data berdasarkan **stasiun** dan **tahun**
+- Ringkasan statistik deskriptif (rata-rata, median, maksimum, jumlah data)
+- Tren PM10 dari waktu ke waktu (bulanan & musiman)
+- Hubungan PM10 dengan faktor lingkungan (suhu & kecepatan angin)
+- Perbandingan kondisi PM10 antar stasiun
+- Distribusi kategori kualitas udara
+- Insight singkat dan rekomendasi dari hasil analisis
 
 ---
 
