@@ -1,7 +1,6 @@
 # 🌫️ Proyek Analisis Data - Air Quality Analysis Dashboard
 
 ## 📌 Deskripsi
-## 📌 Deskripsi
 Proyek ini melakukan analisis kualitas udara dengan fokus pada konsentrasi **PM10** menggunakan Air Quality Dataset periode Maret 2013 hingga Februari 2017, dengan tujuan memahami pola perubahan kualitas udara dari waktu ke waktu serta faktor-faktor yang mempengaruhinya. Hasil analisis disajikan dalam bentuk **notebook** dan **dashboard interaktif menggunakan Streamlit**.
 
 ---
